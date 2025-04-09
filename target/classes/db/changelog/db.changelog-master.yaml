@@ -7,3 +7,6 @@ databaseChangeLog:
       file: db/changelog/migrations/db.changelog-user_roles.yaml
   - include:
       file: db/changelog/migrations/db.changelog-refresh_token.yaml
+  - include:
+      file: db/changelog/migrations/db.changelog-code.yaml
+
